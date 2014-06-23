@@ -1,7 +1,7 @@
 ### Data reading and transformations ####
 
 
-heart <-read.csv("C:/Users/JM/Documents/GitHub/ML Experiments/heart.csv",sep=" ") #Data obtained from http://archive.ics.uci.edu/ml/datasets/Statlog+%28Heart%29
+heart <-read.csv("C:/Users/JM/Documents/GitHub/ML-Experiments/heart.csv",sep=" ") #Data obtained from http://archive.ics.uci.edu/ml/datasets/Statlog+%28Heart%29
 heart$sex<-as.factor(heart$sex)
 heart$chest_pain_type<-as.factor(heart$chest_pain_type)
 heart$fasting_blood_sugar.120mg.dl<-as.factor(heart$fasting_blood_sugar.120mg.dl)
